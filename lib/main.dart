@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/views/graphic_images.dart';
 import 'package:myapp/views/home_page.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GraphicImages(),
+      home: HomePage(),
     );
   }
 }
