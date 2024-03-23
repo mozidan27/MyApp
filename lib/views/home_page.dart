@@ -12,8 +12,10 @@ class HomePage extends StatelessWidget {
         gridDelegate: const SliverSimpleGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2),
         itemBuilder: (context, index) => Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Image.asset('lib/Image/image${index + 1}.JPG')),
+            padding: const EdgeInsets.all(5.0),
+            child: ClipRRect(
+                borderRadius: BorderRadius.circular(16),
+                child: Image.asset('asset/Image/image${index + 1}.JPG'))),
       ),
     );
   }
