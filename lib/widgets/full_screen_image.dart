@@ -8,15 +8,16 @@ class FullScreenImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'shayf el3zmaa',
-          style: TextStyle(
-            color: Colors.black,
-            fontFamily: 'ADAM',
-          ),
-        ),
-      ),
+      // appBar: AppBar(
+      //   centerTitle: true,
+      //   title: const Text(
+      //     'shayf el3zmaa',
+      //     style: TextStyle(
+      //       color: Colors.black,
+      //       fontFamily: 'ADAM',
+      //     ),
+      //   ),
+      // ),
       body: Center(
         child: GestureDetector(
           onTap: () => Navigator.pop(context),

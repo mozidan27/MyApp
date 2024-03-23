@@ -77,6 +77,13 @@ flutter:
     - asset/Image/image19.JPG
     - asset/Image/image20.JPG
     - asset/Image/image21.JPG
+    - asset/gimages/gimage1.jpg
+    - asset/gimages/gimage2.jpg
+    - asset/gimages/gimage3.jpg
+    - asset/gimages/gimage4.jpg
+    - asset/gimages/gimage5.jpg
+    - asset/gimages/gimage6.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
